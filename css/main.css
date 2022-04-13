@@ -1,0 +1,88 @@
+/* MDN-MOZilla Developper Net*/
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+html{
+    height: 100%;
+}
+body { 
+    height: 100vh;
+    margin: 0;
+    front-family:Arail, Helvetica; sans-serif ;
+    background-image:radial-gradiant (#0fff,#f0f);/*
+    background-image: linear-gradiant (#fff,#f0f);
+    background: rgb(141;245;172 );
+    background: #8df5ac;
+    background: hsl(300,50%,75%);
+    background: rgba(0,255,127,.2)
+    background: hsla(240,25%,75%)
+    background: #000ff7f;
+    backround: white;
+    
+   
+
+}
+
+header{ 
+ height: 15vh;
+ display: flex;
+ justify-content: space-between;
+
+}
+
+h1{
+    letter-spacing:1rem;
+    front-weight:bold;
+
+   
+ }
+ h1,
+ h2,
+ h3 {
+
+   front family 'Rock Salt',sans-serif;
+   text-align:center;
+
+ }
+
+ /*image dans un header*/
+ .HdImg { 
+    height: 100%;
+
+     }
+     
+ .Greyshadow { 
+     text-shadow: 0 0 .33 rem #fff,0 0 .66rem #555;
+     pre { 
+         front-size:1.1rem
+     }
+     .member {
+         border: #000 solid .1rem;
+         width: 10rem;
+         text-align: center;
+     }
+     /*selecteur hierarchique ascendant/descendant*/
+
+     .member img {
+         width:80%;
+         margin: 10%;
+         border-radius: 50% ;
+
+     }
+     #members {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+     .boy {
+         background-image: linear-gradient (#f0f,#fff);
+     }
+
+     .girl {
+         background-image: linear-gradient(#0d0,#fff);
+     }
+
+     header,
+     #inro {
+         width: 90%;
+         margin: auto;
+     }
+     
